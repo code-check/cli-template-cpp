@@ -1,5 +1,5 @@
 build:
-  - c++ -o myapp.o src/app.cpp
+  - c++ -o myapp.o src/*.cpp
 env:
   APP_COMMAND: ./myapp.o
 test: mocha
