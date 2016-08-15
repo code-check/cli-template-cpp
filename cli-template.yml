@@ -3,4 +3,5 @@ build:
 files:
   - .gitignore
   - src/app.cpp
+main: src/app.cpp
 command: ./myapp.o
