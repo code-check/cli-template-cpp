@@ -8,8 +8,8 @@ As default, app.cpp has `main` function. You can start to develop from here.
 Same as ususal C++ application, `main` function takes following parameters.
 app.py has a function `main`
 
-- int argc: The number of parameters. (including program name.)
-- char *argv[]: The array of char pointer.
+- `int argc`: The number of parameters. (including program name.)
+- `char *argv[]`: The array of char pointer.
 
 ## How to output result
 You can use `cout`, `printf`, etc.
