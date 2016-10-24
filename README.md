@@ -1,15 +1,18 @@
 # CLI template for C/C++
 
-This is template app for CLI test.  
-You can make console application by editing files under src directory.
-As default, app.cpp has `main` function. You can start to develop from here.
+Implement CLI application by editing [src/app.cpp](src/app.cpp).  
+You may add new files to keep your code clean, if it is allowed in your challenge.
 
 ## How to get input parameters
-Same as ususal C++ application, `main` function takes following parameters.
-app.py has a function `main`
+You can get arguments with ordinary C++ way, using `int argc` and `char * argv[]`.
 
-- `int argc`: The number of parameters. (including program name.)
-- `char *argv[]`: The array of char pointer.
+```cpp
+int main(int argc, char * argv[])
+{
+  // code to run
+  return 0;
+}
+```
 
 ## How to output result
 You can use `cout`, `printf`, etc.
