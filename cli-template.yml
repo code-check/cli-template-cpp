@@ -1,7 +1,7 @@
 build:
-  - c++ -o theapp.o "src/*.cpp"
+  - c++ -o theapp.o src/*.cpp
 files:
   - .gitignore
-  - src/app.cpp
-main: src/app.cpp
+  - src/main.cpp
+main: src/main.cpp
 command: ./theapp.o

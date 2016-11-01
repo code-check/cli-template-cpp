@@ -1,6 +1,6 @@
 # Command line application template for C/C++
 
-Implement CLI application by editing [src/app.cpp](src/app.cpp).  
+Implement CLI application by editing [main.cpp](src/main.cpp).  
 You may add new files to keep your code clean, if it is allowed in your challenge.
 
 ## How to get input parameters
