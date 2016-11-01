@@ -5,21 +5,12 @@
   "scripts": {
     "test": "codecheck"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/code-check/cli-template-cpp.git"
-  },
   "keywords": [
     "codecheck",
     "cli",
     "c++"
   ],
-  "author": "Givery Inc.",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/code-check/cli-template-cpp/issues"
-  },
-  "homepage": "https://github.com/code-check/cli-template-cpp#README.md",
   "devDependencies": {
     "chai": "^3.5.0",
     "codecheck": "^0.5.3"
