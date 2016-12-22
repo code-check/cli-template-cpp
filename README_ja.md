@@ -29,3 +29,25 @@ cout、printf等標準出力に出力する任意のメソッドが使用可能�
 (出力ファイル名を変更した場合はenv/APP_COMMANDセクションも変更が必要です。)
 
 buildをc++からclangに変更することで、(C++ではない)純粋Cアプリケーションも作成可能です。
+
+## GitHub を用いたローカル受験の場合
+codecheck コマンドでテストを行う場合、次のように [codecheck.yml](codecheck.yml) を修正する必要があります。
+（提出時にはもとに戻すことを忘れないでください！）
+
+```yaml
+# Before
+build:
+  - c++ -o theapp.o src/*.cpp
+env:
+  APP_COMMAND: ./theapp.o
+test: mocha
+```
+
+```yaml
+# After
+build:
+  - c++ -o theapp.o "src/*.cpp"
+env:
+  APP_COMMAND: ./theapp.o
+test: mocha
+```
