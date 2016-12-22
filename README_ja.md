@@ -31,7 +31,7 @@ cout、printf等標準出力に出力する任意のメソッドが使用可能�
 buildをc++からclangに変更することで、(C++ではない)純粋Cアプリケーションも作成可能です。
 
 ## GitHub を用いたローカル受験の場合
-codecheck コマンドでテストを行う場合、次のように [codecheck.yml](codecheck.yml) を修正する必要があります。
+codecheck コマンドでテストを行う場合、次のように [codecheck.yml](codecheck.yml) を修正する必要があります。  
 （提出時にはもとに戻すことを忘れないでください！）
 
 ```yaml
