@@ -30,7 +30,7 @@ If you want to change compile option or etc, please edit [codecheck.yml](codeche
 You can build pure C application by switching compiler command from `c++` to `clang`.
 
 ## For local exam using GitHub
-To use codecheck command in your local environment, you need to modify [codecheck.yml](./codecheck.yml) in order to run test properly.
+To use codecheck command in your local environment, you need to modify [codecheck.yml](./codecheck.yml) in order to run test properly.Don't forget to **restore the file** at the time of submit!
 
 ```yaml
 # Before
