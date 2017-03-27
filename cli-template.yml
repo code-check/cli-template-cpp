@@ -1,5 +1,5 @@
 build:
-  - c++ -o theapp.o src/*.cpp
+  - c++ -std=c++11 -o theapp.o src/*.cpp
 files:
   - .gitignore
   - src/main.cpp
