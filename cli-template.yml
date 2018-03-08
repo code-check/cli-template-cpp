@@ -1,7 +1,7 @@
 build:
-  - c++ -std=c++11 -o theapp.o src/*.cpp
+  - c++ -std=c++11 -o main.out src/*.cpp
 files:
   - .gitignore
   - src/main.cpp
 main: src/main.cpp
-command: ./theapp.o
+command: ./main.out
