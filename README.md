@@ -1,4 +1,4 @@
-# Command line application template for C/C++
+# Command line application template for C++
 
 Implement CLI application by editing [main.cpp](src/main.cpp).  
 You may add new files to keep your code clean, if it is allowed in your challenge.
