@@ -22,9 +22,6 @@ You can use `cout`, `printf`, etc.
 ```
 
 ## How to compile
-To compile, we are using [clang](http://clang.llvm.org/) c++ command.
+To compile, we are using [clang](http://clang.llvm.org/) g++ command.
 
-If you want to change compile option or etc, please edit [codecheck.yml](codecheck.yml) `build` section.  
-(If you change output filename, you have to change env/APP_COMMAND section too.)
-
-You can build pure C application by switching compiler command from `c++` to `clang`.
+If you want to change compile option or etc, please edit [makefile](makefile).  

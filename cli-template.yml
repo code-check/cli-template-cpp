@@ -1,7 +1,9 @@
 build:
-  - c++ -std=c++11 -o theapp.o src/*.cpp
+  - make
 files:
-  - .gitignore
+  - makefile
   - src/main.cpp
 main: src/main.cpp
-command: ./theapp.o
+command: ./main
+envConf:
+  imageName: "givery/track-base2"
